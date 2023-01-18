@@ -1,3 +1,8 @@
-#border{
+#border {
     border-style: none;
+}
+
+.bg-personal {
+    width: 100%;
+    height: 700px;
 }
