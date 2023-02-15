@@ -1,28 +1,34 @@
 #border {
-    border-style: none;
+  border-style: none;
 }
 
 .bg-personal {
-    width: 100%;
-    height: 700px;
+  width: 100%;
+  height: 700px;
 }
-.img{
-    height: calc(100% - XXpx); 
-  }
-  html {
-    min-height: 100%;
-    position: relative;
-  }
-  body {
-    margin: 0;
-    margin-bottom: 40px;
-  }
-  footer {
-    background-color: black;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 40px;
-    color: white;
-  }
-  
+
+.img {
+  height: calc(100% - XXpx);
+}
+
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+footer {
+  background-color: black;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  color: white;
+}
+a{
+  color: black;
+}
