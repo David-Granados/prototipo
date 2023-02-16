@@ -1,3 +1,23 @@
+*{
+  box-sizing: border-box;
+
+}
+body {
+  margin: 0;
+  margin-bottom: 40px;
+  position: relative;
+  padding-bottom: 3em;
+  min-height: 100vh;
+}
+footer{
+  position: absolute;
+  height: 40px;
+  padding-bottom: 1em;
+  width: 99%;
+}
+a{
+  color: black;
+}
 #border {
   border-style: none;
 }
@@ -8,27 +28,6 @@
 }
 
 .img {
-  height: calc(100% - XXpx);
-}
-
-html {
-  min-height: 100%;
-  position: relative;
-}
-
-body {
-  margin: 0;
-  margin-bottom: 40px;
-}
-
-footer {
-  background-color: black;
-  position: absolute;
-  bottom: 0;
+  height: auto;
   width: 100%;
-  height: 40px;
-  color: white;
-}
-a{
-  color: black;
 }
